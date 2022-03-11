@@ -71,37 +71,37 @@ cd nachos
 - Download the source code
 - Download NachOS source code:
 ```
-nachos> wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/nachos_40.tar.gz
+wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/nachos_40.tar.gz
 ```
 -Download the source code of MIPS cross-compiler:
 ```
-nachos> wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/mips-decstation.linux-xgcc.gz
+wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/mips-decstation.linux-xgcc.gz
 ```
 -Download the patch for Linux:
 ```
-nachos> wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/nachos-gcc.diff.gz
+wget https://www.fit.hcmus.edu.vn/~ntquan/os/assignment/nachos-gcc.diff.gz
 ```
 
 - Extract the zipped files and patch the Makefiles for the environment of Linux
 - Extract NachOS source code:
 ```
-nachos> tar zxvf nachos_40.tar.gz
+tar zxvf nachos_40.tar.gz
 ```
 - Extract the source code of MIPS cross-compiler:
 ```
-nachos> tar zxvf mips-decstation.linux-xgcc.gz
+tar zxvf mips-decstation.linux-xgcc.gz
 ```
 - Extract patch file:
 ```
-nachos> tar zxvf nachos-gcc.diff.gz
+tar zxvf nachos-gcc.diff.gz
 ```
 - Patch Makefiles:
 ```
-nachos> patch -p0 < nachos-gcc.diff
+patch -p0 < nachos-gcc.diff
 ```
 - Compile NachOS:
 ```
-nachos> cd NachOS-4.0
+cd NachOS-4.0
 nachos/NachOS-4.0> cd code/build.linux
 nachos/NachOS-4.0/code/build.linux> make depend
 nachos/NachOS-4.0/code/build.linux> make
