@@ -2,9 +2,7 @@
 
 int main() {
     PrintString("Our team:\n");
-    PrintString("19120037 Le Duy Thuc\n");
-    PrintString("19120395 Tran Duy Tien\n");
-    PrintString("19120219 Ha Chi Hao\n\n");
+    PrintString("20127166 - Nguyen Huy Hoan\n");
     PrintString(
         "ASCII: at directory code, run build.linux/nachos -x test/ascii to "
         "print the ASCII table\n");
